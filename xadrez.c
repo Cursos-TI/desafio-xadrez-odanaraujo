@@ -43,5 +43,22 @@ int main() {
         indexRainha++;
     }
 
+    // movimentação do cavalo
+
+    printf("\nmov cavalo\n");
+    int numeroCavaloBaixo = 2;
+    int numeroCavaloEsquerda = 1;
+    int i, j = 0;
+
+   for(i = 0; i < numeroCavaloEsquerda; i++) {
+    int j = 0;
+    while(j < numeroCavaloBaixo) {
+        printf("Baixo\n");
+        j++;
+    }
+    printf("Esquerda\n");
+}
+
+
     return 0;
 }
